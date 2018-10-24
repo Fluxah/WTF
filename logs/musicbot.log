@@ -1,0 +1,46 @@
+[22.940397263] 2018-10-24 20:44:00,113 - INFO - launcher: Starting sanity checks
+[23.936271667] 2018-10-24 20:44:00,114 - INFO - launcher: Checking for Python 3.5+
+[23.936271667] 2018-10-24 20:44:00,114 - INFO - launcher: Checking console encoding
+[23.936271667] 2018-10-24 20:44:00,114 - INFO - launcher: Setting console encoding to UTF-8
+[23.936271667] 2018-10-24 20:44:00,114 - INFO - launcher: Ensuring we're in the right environment
+[24.933576584] 2018-10-24 20:44:00,115 - INFO - launcher: Adding local bins/ folder to path
+[527.590036392] 2018-10-24 20:44:00,618 - INFO - launcher: Required checks passed.
+[528.587102890] 2018-10-24 20:44:00,619 - INFO - launcher: Optional checks passed.
+[528.587102890] 2018-10-24 20:44:00,619 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.9514558315277100] 2018-10-24 20:44:01,042 - WARNING - musicbot.config | In config.py::MainThread(13404), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.9524533748626709] 2018-10-24 20:44:01,043 - INFO - musicbot.config | In config.py::MainThread(13404), line 124 in run_checks: Using i18n: config/i18n/en.json
+[0.9544477462768555] 2018-10-24 20:44:01,044 - DEBUG - musicbot.json | In json.py::MainThread(13404), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.1997923851013184] 2018-10-24 20:44:01,290 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 223 in _setup_logging: Set logging level to INFO
+[1.2007896900177002] 2018-10-24 20:44:01,291 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 83 in __init__: Starting MusicBot 1.9.8_1
+[1.2007896900177002] 2018-10-24 20:44:01,291 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 89 in __init__: Loaded autoplaylist with 74 entries
+[4.0741059780120850] 2018-10-24 20:44:04,164 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 913 in on_ready: Connection established, ready to go.
+[4.0741059780120850] 2018-10-24 20:44:04,164 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 334 in _cache_app_info: Caching app info
+[4.2197167873382568] 2018-10-24 20:44:04,310 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[4.2197167873382568] 2018-10-24 20:44:04,310 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 751 in _scheck_server_permissions: Checking server permissions
+[4.2207133769989014] 2018-10-24 20:44:04,311 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[4.2207133769989014] 2018-10-24 20:44:04,311 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 759 in _scheck_configs: Validating config
+[4.2207133769989014] 2018-10-24 20:44:04,311 - DEBUG - musicbot.config | In config.py::MainThread(13404), line 213 in async_validate: Validating options...
+[4.2207133769989014] 2018-10-24 20:44:04,311 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 762 in _scheck_configs: Validating permissions config
+[4.2207133769989014] 2018-10-24 20:44:04,311 - DEBUG - musicbot.permissions | In permissions.py::MainThread(13404), line 65 in async_validate: Validating permissions...
+[4.2207133769989014] 2018-10-24 20:44:04,311 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 930 in on_ready: Connected: 504660903497564160/Radio NCS#8232
+[4.2207133769989014] 2018-10-24 20:44:04,311 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 938 in on_ready: Owner:     337568120028004362/xd Shadow#7311
+
+[4.2217116355895996] 2018-10-24 20:44:04,312 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 941 in on_ready: Guild List:
+[4.2217116355895996] 2018-10-24 20:44:04,312 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 944 in on_ready:  - TEST
+[4.2217116355895996] 2018-10-24 20:44:04,312 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 990 in on_ready: Not bound to any text channels
+[4.2217116355895996] 2018-10-24 20:44:04,312 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 1016 in on_ready: Not autojoining any voice channels
+[4.2227079868316650] 2018-10-24 20:44:04,313 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 267 in _join_startup_channels: Found owner in "Allgemein"
+[4.2227079868316650] 2018-10-24 20:44:04,313 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 276 in _join_startup_channels: Attempting to join TEST/Allgemein
+[4.7265646457672119] 2018-10-24 20:44:04,817 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 695 in deserialize_queue: Deserializing queue for 492805062112837633
+[4.7995426654815674] 2018-10-24 20:44:04,890 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 417 in get_player: Created player via deserialization for guild 492805062112837633 with 1 entries
+[4.7995426654815674] 2018-10-24 20:44:04,890 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 292 in _join_startup_channels: Joined TEST/Allgemein
+[4.8005397319793701] 2018-10-24 20:44:04,891 - DEBUG - musicbot.entry | In entry.py::MainThread(13404), line 56 in get_ready_future: Created future for audio_cache\youtube-PhzDIABahyc-Jensation_-_Delicious_NCS_Release.webm
+[4.8005397319793701] 2018-10-24 20:44:04,891 - FFMPEG - musicbot.player | In player.py::MainThread(13404), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-PhzDIABahyc-Jensation_-_Delicious_NCS_Release.webm
+[4.8025336265563965] 2018-10-24 20:44:04,893 - DEBUG - musicbot.player | In player.py::MainThread(13404), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05A1AEB0> using <discord.voice_client.VoiceClient object at 0x05590E50>
+[4.8035318851470947] 2018-10-24 20:44:04,894 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 452 in on_player_play: Running on_player_play
+[4.8035318851470947] 2018-10-24 20:44:04,894 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 671 in serialize_queue: Serializing queue for 492805062112837633
+[18.2607622146606445] 2018-10-24 20:44:18,351 - INFO - musicbot.bot | In bot.py::MainThread(13404), line 2598 in on_message: 337568120028004362/xd Shadow#7311: ;;pause
+[18.2627556324005127] 2018-10-24 20:44:18,353 - DEBUG - musicbot.bot | In bot.py::MainThread(13404), line 500 in on_player_pause: Running on_player_pause
